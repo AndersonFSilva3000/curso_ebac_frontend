@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercício plugin </title>
+
+  <link rel="stylesheet" href="main.css">
+  
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Olá, preencha seus dados para realização do cadastro</h1>
+    </div>
+  </header>
+
+  <form>
+      <div class="container container-form">
+        <ul>
+          <div class="colab1">
+            <li>
+              <label>Nome completo:</label>
+              <input type="text" class="nome">
+            </li>
+            <li>
+              <label>Data de nascimento:</label>
+              <input type="text" class="dataNascimento">
+            </li>
+          </div>
+          <div class="colab1">
+            <li>
+              <label>RG:</label>
+              <input type="text" class="rg">
+            </li>
+            <li>
+              <label>CPF:</label>
+              <input type="text" class="cpf">
+            </li>
+          </div>
+          <div class="colab1">
+            <li>
+              <label>E-mail:</label>
+              <input type="email" class="eMail">
+            </li>
+            <li>
+              <label>Telefone</label>
+              <input type="text" class="telefone">
+            </li>
+          </div>
+          <div class="colab1">
+            <li>
+              <label>Endereço:</label>
+              <input type="text" class="endereco">
+            </li>
+            <li>
+              <label>Número:</label>
+              <input type="text" class="numero">
+            </li>
+            <li>
+              <label>Bairro:</label>
+              <input type="text">
+            </li>
+          </div class="colab1">
+          <div class="colab1">
+            <li>
+              <label>Cidade:</label>
+              <input type="text" class="cidade">
+            </li>
+            <li>
+              <label>CEP:</label>
+              <input type="text" class="cep">
+            </li>
+          </div>
+          <div class="colab2">
+            <li>
+              <label>Sexo:</label>
+              <input type="radio" name="sexo">
+              <label>Masculino</label>
+              <input type="radio" name="sexo">
+              <label>Feminino</label>
+            </li>
+          </div>
+          <button type="submit">Cadastrar</button>
+        </ul>
+      </div>
+  </form>
+
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+
+  <script src="js/jquery.validate.min.js"></script>
+  <script src="js/messages_pt_BR.min.js"></script>
+
+  <script src="js/jquery.mask.min.js"></script>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

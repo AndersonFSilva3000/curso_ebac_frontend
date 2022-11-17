@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #829FD9;
+  color: #D8EBF2;
+  padding: 16px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+.container-form {
+  max-width: 522px;
+}
+
+form  label{
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  margin-bottom: 15px;
+}
+
+.rg, .cpf{
+  width: 251px;
+}
+
+.nome, .eMail {
+  width: 350px;
+}
+
+.dataNascimento, .telefone {
+  width: 152px;
+}
+
+.e-mail {
+  width: 100%;
+}
+
+.colab1 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.endereco {
+  width: 245px;
+}
+
+.numero {
+  width: 60px;  
+}
+
+.cep {
+  width: 202px;
+}
+
+.cidade {
+  width: 300px;
+}
+
+.colab2 li{
+  display: flex;
+}
+
+.colab2 label {
+  margin-right: 15px;
+}
+
+.colab2 input {
+  margin-right: 5px;
+}
+
+button {
+  padding: 5px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  background-color: #829FD9;
+  color: #fff;
+}
+
+button:hover {
+  background-color: #6a80ad;
+  border: 2px solid #000;
+}
