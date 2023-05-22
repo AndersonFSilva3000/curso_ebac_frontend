@@ -3,7 +3,7 @@ function Ninja(name, clan) {
   this.clan = clan;
 }
 
-  function Uchiha(name, clan, jutsu, characteristics) {    
+  function Uchiha(name, clan, jutsu) {    
     Ninja.call(this, name, clan);
 
     this.characteristics = function() {
@@ -12,7 +12,7 @@ function Ninja(name, clan) {
   }
 
   function Hyuga(name, clan, jutsu) {
-    Uchiha.call(this, name, clan, jutsu);
+    Ninja.call(this, name, clan);
 
     this.characteristics = function(){
       console.log(`${name}, é do clan ${clan} e tem como jutsu mais poderoso o ${jutsu}.`)
