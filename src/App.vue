@@ -46,7 +46,7 @@ import Cabecalho from './components/Cabecalho.vue';
 </script>
 
 <template>
-  <div class="container bg-light pt-5 pb-5">
+  <div class="container py-5 template__container">
 
     <Cabecalho />
     <Formulario :trocarOperado="evento => estado.operador = evento.target.value" :numberOne="evento => estado.numberOne = evento.target.value" :numberTwo="evento => estado.numberTwo = evento.target.value" :soma="soma()"/>
@@ -54,5 +54,9 @@ import Cabecalho from './components/Cabecalho.vue';
 </template>
 
 <style scoped>
-
+  .template__container {
+    background-image: url(../public/calculadora.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 </style>

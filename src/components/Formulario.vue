@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <form class="bg-light text-center py-5">
+  <form class="text-center py-5">
     <div class="row align-items-center d-flex  flex-column">
         <div class="col">
           <input type="number" class="text-end" @keyup="props.numberOne">
@@ -23,7 +23,7 @@
     <div v-if="soma" class="row mt-3">
       <h2>{{ props.soma }}</h2>
     </div>
-    <div v-else="NaN">
+    <div v-else>
       <h2></h2>
     </div>
   </form>
